@@ -124,7 +124,7 @@ void load_game_resources()
 	flip_image(&img_1P_selector_btn_down_right, &img_1P_selector_btn_down_left); 
 	loadimage(&img_2P_selector_btn_idle_right, _T("resources/2P_selector_btn_idle.png")); 
 	flip_image(&img_2P_selector_btn_idle_right, &img_2P_selector_btn_idle_left); 
-	loadimage(&img_2P_selector_btn_down_right, _T("resources/2P selector btn down.png"));
+	loadimage(&img_2P_selector_btn_down_right, _T("resources/2P_selector_btn_down.png"));
 	flip_image(&img_2P_selector_btn_down_right, &img_2P_selector_btn_down_left); 
 	loadimage(&img_peashooter_selector_background_right, _T("resources/peashooter_selector_background.png"));
 	flip_image(&img_peashooter_selector_background_right, &img_peashooter_selector_background_left);
@@ -221,6 +221,7 @@ int main()
 		DWORD current_tick_time = GetTickCount();
 		DWORD delta_tick = current_tick_time - last_tick_time;
 		// 计算了一次循环实际经过的时间
+
 		scene_manager.on_update(delta_tick);
 		last_tick_time = current_tick_time;
 

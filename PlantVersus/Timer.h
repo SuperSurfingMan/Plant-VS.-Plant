@@ -9,6 +9,7 @@ public:
 	void on_update(float delta)
 	{
 		if (paused) return;
+
 		// 已经过去的时间
 		pass_time += delta;
 

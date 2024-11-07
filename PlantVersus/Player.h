@@ -467,6 +467,7 @@ protected:
 
 
 	// 移动与相交
+	// 此方法计算玩家位置与地图线段位置的关系 模拟碰撞效果
 	void move_and_collide(int delta)
 	{
 		float last_velocity_y = velocity.y;

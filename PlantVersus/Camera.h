@@ -43,6 +43,8 @@ public:
 	{
 		// 更新计时器
 		timer_shake.on_update(delta);
+
+		// 通过在小范围内随机设置摄像机位置达到仿真的震动效果
 		if (is_shaking)
 		{
 			position.x = (-50 + rand() % 100) / 50.0f * shaking_strength;
