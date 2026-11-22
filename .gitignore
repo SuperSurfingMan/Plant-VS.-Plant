@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# 游戏美术/音频资源：体积大，改用百度网盘分发，不入 git 库
+PlantVersus/resources/
