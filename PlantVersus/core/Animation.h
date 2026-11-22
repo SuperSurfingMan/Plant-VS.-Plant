@@ -1,8 +1,8 @@
 #pragma once
 #include"functional"
-#include"Atlas.h"
-#include"Util.h"
-#include"Camera.h"
+#include"core/Atlas.h"
+#include"core/Util.h"
+#include"core/Camera.h"
 class Animation
 {
 public:

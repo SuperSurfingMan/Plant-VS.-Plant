@@ -1,11 +1,11 @@
 #pragma once
-#include"scene.h"
+#include"scene/Scene.h"
 #include<iostream>
-#include"SceneManager.h"
-#include"Util.h"
-#include"Platform.h"
-#include"Player.h"
-#include"status_bar.h"
+#include"scene/SceneManager.h"
+#include"core/Util.h"
+#include"scene/Platform.h"
+#include"player/Player.h"
+#include"scene/status_bar.h"
 
 extern IMAGE img_sky;
 extern IMAGE img_hills;

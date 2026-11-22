@@ -1,7 +1,7 @@
 #pragma once
-#include"Vector2.h"
-#include"Atlas.h"
-#include"Util.h"
+#include"core/Vector2.h"
+#include"core/Atlas.h"
+#include"core/Util.h"
 class Particle
 {
 public:

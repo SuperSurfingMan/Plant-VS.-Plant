@@ -1,6 +1,6 @@
 #pragma once
-#include"Vector2.h"
-#include"Timer.h"
+#include"core/Vector2.h"
+#include"core/Timer.h"
 class Camera
 {
 public:

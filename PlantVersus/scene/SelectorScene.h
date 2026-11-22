@@ -1,10 +1,10 @@
 #pragma once
 #include<graphics.h>
-#include "Scene.h"
-#include "Animation.h"
-#include "Peashooter_player.h"
-#include "Sunflower_player.h"
-#include "PlayerID.h"
+#include "scene/Scene.h"
+#include "core/Animation.h"
+#include "player/Peashooter_player.h"
+#include "player/Sunflower_player.h"
+#include "player/PlayerID.h"
 
 
 extern IMAGE img_VS; 	                                                  // VS “’ ı◊÷Õº∆¨

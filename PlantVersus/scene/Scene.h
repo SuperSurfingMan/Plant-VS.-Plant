@@ -1,7 +1,7 @@
 #pragma once
 // ·ÀÖ¹±»ÖØ¸´°üº¬
 #include<graphics.h>
-#include"Camera.h"
+#include"core/Camera.h"
 class Scene
 {
 public:

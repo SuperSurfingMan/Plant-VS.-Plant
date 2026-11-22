@@ -1,10 +1,10 @@
 #pragma once
-#include"scene.h"
+#include"scene/Scene.h"
 #include<iostream>
-#include"SceneManager.h"
-#include"Animation.h"
-#include"Camera.h"
-#include"Timer.h"
+#include"scene/SceneManager.h"
+#include"core/Animation.h"
+#include"core/Camera.h"
+#include"core/Timer.h"
 
 extern IMAGE img_menu_background;
 extern SceneManager scene_manager;

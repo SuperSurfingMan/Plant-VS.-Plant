@@ -72,6 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -84,6 +85,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -100,6 +102,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -112,6 +115,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -127,31 +131,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Bullet.h" />
     <ClCompile Include="game.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Animation.h" />
-    <ClInclude Include="Atlas.h" />
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="GameScene.h" />
-    <ClInclude Include="MenuScene.h" />
-    <ClInclude Include="particle.h" />
-    <ClInclude Include="Peashooter_player.h" />
-    <ClInclude Include="pea_bullet.h" />
-    <ClInclude Include="Platform.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="PlayerID.h" />
-    <ClInclude Include="Scene.h" />
-    <ClInclude Include="SceneManager.h" />
-    <ClInclude Include="SelectorScene.h" />
-    <ClInclude Include="status_bar.h" />
-    <ClInclude Include="Sunflower_player.h" />
-    <ClInclude Include="sun_bullet.h" />
-    <ClInclude Include="sun_bullet_ex.h" />
-    <ClInclude Include="Timer.h" />
-    <ClInclude Include="Util.h" />
-    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="bullet\Bullet.h" />
+    <ClInclude Include="bullet\pea_bullet.h" />
+    <ClInclude Include="bullet\sun_bullet.h" />
+    <ClInclude Include="bullet\sun_bullet_ex.h" />
+    <ClInclude Include="core\Animation.h" />
+    <ClInclude Include="core\Atlas.h" />
+    <ClInclude Include="core\Camera.h" />
+    <ClInclude Include="core\particle.h" />
+    <ClInclude Include="core\Timer.h" />
+    <ClInclude Include="core\Util.h" />
+    <ClInclude Include="core\Vector2.h" />
+    <ClInclude Include="player\Peashooter_player.h" />
+    <ClInclude Include="player\Player.h" />
+    <ClInclude Include="player\PlayerID.h" />
+    <ClInclude Include="player\Sunflower_player.h" />
+    <ClInclude Include="scene\GameScene.h" />
+    <ClInclude Include="scene\MenuScene.h" />
+    <ClInclude Include="scene\Platform.h" />
+    <ClInclude Include="scene\Scene.h" />
+    <ClInclude Include="scene\SceneManager.h" />
+    <ClInclude Include="scene\SelectorScene.h" />
+    <ClInclude Include="scene\status_bar.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

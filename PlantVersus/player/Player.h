@@ -1,12 +1,12 @@
 #pragma once
-#include"Camera.h"
+#include"core/Camera.h"
 #include<graphics.h>
-#include"Vector2.h"
-#include"Animation.h"
-#include"PlayerID.h"
-#include"Platform.h"
-#include"Bullet.h"
-#include"particle.h"
+#include"core/Vector2.h"
+#include"core/Animation.h"
+#include"player/PlayerID.h"
+#include"scene/Platform.h"
+#include"bullet/Bullet.h"
+#include"core/particle.h"
 
 extern IMAGE img_1P_cursor;
 extern IMAGE img_2P_cursor;

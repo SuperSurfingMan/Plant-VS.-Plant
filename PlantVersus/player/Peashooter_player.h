@@ -1,6 +1,6 @@
 #pragma once
-#include"Player.h"
-#include"pea_bullet.h"
+#include"player/Player.h"
+#include"bullet/pea_bullet.h"
 #include<iostream>
 
 extern Atlas atlas_peashooter_idle_left;

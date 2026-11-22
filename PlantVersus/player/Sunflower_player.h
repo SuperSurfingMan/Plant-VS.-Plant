@@ -1,8 +1,8 @@
 #pragma once
 #include<iostream>
-#include"Player.h"
-#include"sun_bullet_ex.h"
-#include"sun_bullet.h"
+#include"player/Player.h"
+#include"bullet/sun_bullet_ex.h"
+#include"bullet/sun_bullet.h"
 
 extern Atlas atlas_sunflower_idle_left;
 extern Atlas atlas_sunflower_idle_right;

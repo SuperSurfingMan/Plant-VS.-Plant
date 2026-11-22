@@ -1,6 +1,6 @@
 #pragma once
 #include<graphics.h>
-#include"Camera.h"
+#include"core/Camera.h"
 #pragma comment(lib, "MSIMG32.LIB")
 
 

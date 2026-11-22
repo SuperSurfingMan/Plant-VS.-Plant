@@ -1,6 +1,6 @@
 #pragma once
-#include "Bullet.h"
-#include "Animation.h"
+#include "bullet/Bullet.h"
+#include "core/Animation.h"
 
 extern IMAGE img_pea;
 extern Atlas atlas_pea_break;

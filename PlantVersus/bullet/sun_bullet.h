@@ -1,6 +1,6 @@
 #pragma once
-#include "Bullet.h"
-#include "Animation.h"
+#include "bullet/Bullet.h"
+#include "core/Animation.h"
 
 extern Atlas atlas_sun;
 extern Atlas atlas_sun_explode;

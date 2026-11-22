@@ -1,9 +1,9 @@
 #pragma once
-#include"Vector2.h"
+#include"core/Vector2.h"
 #include"functional"
-#include"PlayerID.h"
+#include"player/PlayerID.h"
 #include<graphics.h>
-#include"Camera.h"
+#include"core/Camera.h"
 
 extern bool is_debug;
 

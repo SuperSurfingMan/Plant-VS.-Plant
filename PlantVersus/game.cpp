@@ -1,15 +1,15 @@
 #include<graphics.h>
 #pragma comment(lib, "Winmm.lib")
 
-#include"Util.h"
-#include"Atlas.h"
-#include"MenuScene.h"
-#include"GameScene.h"
-#include"SceneManager.h"
-#include"SelectorScene.h"
-#include"Platform.h"
-#include"Player.h"
-#include"Bullet.h"
+#include"core/Util.h"
+#include"core/Atlas.h"
+#include"scene/MenuScene.h"
+#include"scene/GameScene.h"
+#include"scene/SceneManager.h"
+#include"scene/SelectorScene.h"
+#include"scene/Platform.h"
+#include"player/Player.h"
+#include"bullet/Bullet.h"
 void flip_atlas(Atlas& src, Atlas& dst)
 {
 	dst.clear();

@@ -9,9 +9,8 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="头文件\core">
+      <UniqueIdentifier>{cb802098-6a87-4680-a6a9-c8529e64559a}</UniqueIdentifier>
     </Filter>
     <Filter Include="头文件\scene">
       <UniqueIdentifier>{4307b225-0d31-4ec5-b694-b5ff7f61ed8d}</UniqueIdentifier>
@@ -27,73 +26,73 @@
     <ClCompile Include="game.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Bullet.h">
-      <Filter>头文件\bullet</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SceneManager.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="core\Animation.h">
+      <Filter>头文件\core</Filter>
     </ClInclude>
-    <ClInclude Include="GameScene.h">
+    <ClInclude Include="core\Atlas.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Camera.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\particle.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Timer.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Util.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Vector2.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\GameScene.h">
       <Filter>头文件\scene</Filter>
     </ClInclude>
-    <ClInclude Include="MenuScene.h">
+    <ClInclude Include="scene\MenuScene.h">
       <Filter>头文件\scene</Filter>
     </ClInclude>
-    <ClInclude Include="SelectorScene.h">
+    <ClInclude Include="scene\Platform.h">
       <Filter>头文件\scene</Filter>
     </ClInclude>
-    <ClInclude Include="Scene.h">
+    <ClInclude Include="scene\Scene.h">
       <Filter>头文件\scene</Filter>
     </ClInclude>
-    <ClInclude Include="Atlas.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="scene\SceneManager.h">
+      <Filter>头文件\scene</Filter>
     </ClInclude>
-    <ClInclude Include="Util.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="scene\SelectorScene.h">
+      <Filter>头文件\scene</Filter>
     </ClInclude>
-    <ClInclude Include="Animation.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="scene\status_bar.h">
+      <Filter>头文件\scene</Filter>
     </ClInclude>
-    <ClInclude Include="Vector2.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Camera.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Timer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Platform.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
+    <ClInclude Include="player\Peashooter_player.h">
       <Filter>头文件\player</Filter>
     </ClInclude>
-    <ClInclude Include="Peashooter_player.h">
+    <ClInclude Include="player\Player.h">
       <Filter>头文件\player</Filter>
     </ClInclude>
-    <ClInclude Include="Sunflower_player.h">
+    <ClInclude Include="player\PlayerID.h">
       <Filter>头文件\player</Filter>
     </ClInclude>
-    <ClInclude Include="PlayerID.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="player\Sunflower_player.h">
+      <Filter>头文件\player</Filter>
     </ClInclude>
-    <ClInclude Include="pea_bullet.h">
+    <ClInclude Include="bullet\Bullet.h">
       <Filter>头文件\bullet</Filter>
     </ClInclude>
-    <ClInclude Include="sun_bullet.h">
+    <ClInclude Include="bullet\pea_bullet.h">
       <Filter>头文件\bullet</Filter>
     </ClInclude>
-    <ClInclude Include="sun_bullet_ex.h">
+    <ClInclude Include="bullet\sun_bullet.h">
       <Filter>头文件\bullet</Filter>
     </ClInclude>
-    <ClInclude Include="status_bar.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="particle.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="bullet\sun_bullet_ex.h">
+      <Filter>头文件\bullet</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

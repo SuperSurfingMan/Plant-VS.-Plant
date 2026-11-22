@@ -1,5 +1,5 @@
 #pragma once
-#include"Scene.h"
+#include"scene/Scene.h"
 
 // 告诉这个类外部会出现这些变量
 extern Scene* menu_scene;

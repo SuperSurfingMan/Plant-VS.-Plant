@@ -1,7 +1,7 @@
 #pragma once
 #include"graphics.h"
-#include"Camera.h"
-#include"Util.h"
+#include"core/Camera.h"
+#include"core/Util.h"
 
 extern bool is_debug;
 class Platform
