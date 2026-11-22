@@ -1,5 +1,4 @@
 #pragma once
-#pragma once
 #include<vector>
 #include<graphics.h>
 class Atlas {

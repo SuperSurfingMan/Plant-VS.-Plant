@@ -44,12 +44,12 @@ public:
 	{
 		this->callback = callback;
 	}
-
+	// ‘›Õ£∂Øª≠
 	void pause()
 	{
 		paused = true;
 	}
-
+	// ¥”‘›Õ£÷–ª÷∏¥
 	void resume()
 	{
 		paused = false;

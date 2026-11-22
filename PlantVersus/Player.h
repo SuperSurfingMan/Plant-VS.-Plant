@@ -91,6 +91,7 @@ public:
 			if(!is_attacking_ex)
 				is_facing_right = direction > 0;
 			current_animation = is_facing_right ? &animation_run_right : &animation_run_left;
+			//  距离与时间相关 使得即使在不同帧率下也能实现相似的移动距离 避免由帧率决定移速
 			float distance = direction * run_velocity * delta;  // delta时间内玩家走过的距离(水平方向)
 			on_run(distance);
 		}
