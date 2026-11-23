@@ -3,7 +3,7 @@
 一款基于 **EasyX** 图形库与 **C++** 编写的 2D 双人同屏横版对战小游戏（Windows 平台）。
 两名玩家分别操控「婉逗射手」和「龙日葵」，在多层平台间跳跃、射击，先击倒对方的一方获胜。
 
-> 学习与交流项目，参考了 B 站 up 主 [@Voidmatrix](https://space.bilibili.com/25864506) 的 EasyX 游戏开发系列内容。
+> 学习与交流项目，详情可见 B 站 up 主 [@Voidmatrix](https://space.bilibili.com/25864506) 的 EasyX 游戏开发系列中的植物明星大乱斗。
 
 ---
 
